@@ -1,7 +1,8 @@
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
+import SideMenu from "./SideMenu/SideMenu";
 
 const App = () => {
-  return <Navbar />;
+  return <SideMenu />;
 };
 
 export default App;
